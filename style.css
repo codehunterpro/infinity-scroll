@@ -1,0 +1,52 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&family=Tapestry&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 5px;
+  font-size: 3rem;
+}
+
+/* loader CSS */
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* image container CSS */
+.image-container {
+  margin: 10px 20%;
+}
+
+.image-container img {
+  border: 15px solid rgba(144, 144, 144, 0.8);
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* media queries screen responsive */
+@media screen and (max-width: 630px) {
+  h1 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+}
