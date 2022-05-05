@@ -8,7 +8,7 @@ let loadedImage = 0;
 let ready = false;
 loader.hidden = false;
 
-const apiKey = `cVj6wJsnpBlGvUX5Vg0g9anrxu3FVZrljiqaSARyseU`;
+const apiKey = `0n1myYQ9ncgPOraBRfkafzJTgDEMChQZNsMHr9zZvIo`;
 const APIurl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 //helper function---------------------------------------
