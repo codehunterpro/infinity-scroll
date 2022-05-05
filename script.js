@@ -2,7 +2,7 @@
 const imageContainer = document.querySelector(".image-container");
 const loader = document.querySelector(".loader");
 
-let count = 10;
+let count = 30;
 let totalImage = 0;
 let loadedImage = 0;
 let ready = false;
@@ -32,7 +32,7 @@ const getPhotos = async function () {
     ImageLoaded();
 
     //calling loadmore function
-    loadMore(data);
+    loadMore();
   } catch (err) {
     console.log(err.message);
   }
